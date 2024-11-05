@@ -1,0 +1,47 @@
+[versions]
+agp = "8.5.0"
+appcompatV7 = "latest-version"
+firebaseAuthVersion = "latest-version"
+firebaseDatabase = "21.0.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+firebaseAuth = "23.0.0"
+firebaseFirestore = "25.1.0"
+materialCalendarview = "latest_version"
+mongodbDriverSync = "4.5.0"
+mongodbDriverSyncVersion = "latest-version"
+mpandroidchart = "v3.1.0"
+okhttp = "4.10.0"
+firebaseStorage = "21.0.1"
+prolificinteractiveMaterialCalendarview = "2.0.1"
+
+[libraries]
+appcompat-v7 = { module = "com.android.support:appcompat-v7", version.ref = "appcompatV7" }
+design = { module = "com.android.support:design", version.ref = "appcompatV7" }
+firebase-auth-vlatestversion = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+material-calendarview = { module = "com.prolificinteractive:material-calendarview", version.ref = "materialCalendarview" }
+mongodb-driver-sync = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodbDriverSync" }
+mongodb-mongodb-driver-sync = { module = "com.mongodb:mongodb-driver-sync", version.ref = "mongodbDriverSyncVersion" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+prolificinteractive-material-calendarview-v201 = { module = "com.prolificinteractive:material-calendarview", version.ref = "prolificinteractiveMaterialCalendarview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

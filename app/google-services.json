@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672632116778",
+    "project_id": "escoolashray",
+    "storage_bucket": "escoolashray.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672632116778:android:5b6543b193feaf95259553",
+        "android_client_info": {
+          "package_name": "com.example.e_scool_ashray"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsHit_6i9dhK7utcE4YpPWWyoKSxyrj_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

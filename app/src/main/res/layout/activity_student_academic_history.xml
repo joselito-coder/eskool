@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chartTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Total Exam Scores"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000"/>
+
+        <!-- Total Marks Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Marks"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.e_scool_ashray.PieChartView
+                    android:id="@+id/totalMarksChart"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/totalMarksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="55/100"
+                    android:textSize="18sp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ISA 1 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISA 1"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.e_scool_ashray.PieChartView
+                    android:id="@+id/isa1Chart"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/isa1MarksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="15/20"
+                    android:textSize="18sp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ISA 2 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISA 2"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.e_scool_ashray.PieChartView
+                    android:id="@+id/isa2Chart"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/isa2MarksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="10/20"
+                    android:textSize="18sp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ISA 3 Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISA 3"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.e_scool_ashray.PieChartView
+                    android:id="@+id/isa3Chart"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/isa3MarksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="10/20"
+                    android:textSize="18sp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- SEE Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEE"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.e_scool_ashray.PieChartView
+                    android:id="@+id/seeChart"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/seeMarksText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:text="20/40"
+                    android:textSize="18sp"
+                    android:layout_marginStart="16dp"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

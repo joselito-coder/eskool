@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.E_scool_Ashray"
+        tools:targetApi="31">
+        <activity
+            android:name=".StudentAcademicHistory"
+            android:exported="false" />
+        <activity
+            android:name=".StudentAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".StudentProfile"
+            android:exported="false" />
+        <activity
+            android:name=".LibUpload"
+            android:exported="false" />
+        <activity
+            android:name=".LibView"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherAcademicHistory"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherProfile"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".Classroom"
+            android:exported="false" />
+        <activity
+            android:name=".EventCalendar"
+            android:exported="false" />
+        <activity
+            android:name=".Library"
+            android:exported="false" />
+        <activity
+            android:name=".StudentHome"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherHome"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher"
+            android:exported="false" />
+        <activity
+            android:name=".Student"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
